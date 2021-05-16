@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button>
+      </ion-back-button>
+    </ion-buttons>
+  <ion-title>Botões</ion-title>
+</ion-toolbar>
+</ion-header>
+<ion-content>
+
+  <h2>Botões Padrão</h2>
+  <ion-button>Nome do Botão</ion-button>
+  <ion-button href="#">Link</ion-button>
+
+  <h2>Botões com temas</h2>
+  <ion-button color="primary">Nome do Botão</ion-button>
+  <ion-button color="secondary">Nome do Botão</ion-button>
+  <ion-button color="tertiary">Nome do Botão</ion-button>
+  <ion-button color="success">Nome do Botão</ion-button>
+  <ion-button color="warning">Nome do Botão</ion-button>
+  <ion-button color="danger">Nome do Botão</ion-button >
+  <ion-button color="light">Nome do Botão</ion-button>
+  <ion-button color="medium">Nome do Botão</ion-button>
+  <ion-button color="dark">Nome do Botão</ion-button>
+
+  <h2>botões com Expand</h2>
+    <ion-button expand="full">Full Button</ion-button>
+    <ion-button expand="block">Block Button</ion-button>
+
+    <h2>botões com Fill</h2>
+    <ion-button expand="full" fill="outline">Full Button + outline</ion-button>
+    <ion-button expand="block" fill="outline">Block Button + outline</ion-button>
+    <ion-button shape="round" fill="outline">round + outline</ion-button>
+
+    <h2>botões com Round</h2>
+    <ion-button shape="round">Upa Upa</ion-button>
+
+    <h2>Botões com Ícones<br></h2>
+    <!-- <IonButton>
+      <IonIcon slot="start" icon={star} />
+      Left Icon
+    </IonButton>
+
+    <IonButton>
+      Right Icon
+      <IonIcon slot="end" icon={star} />
+    </IonButton>
+
+    <IonButton>
+      <IonIcon slot="icon-only" icon={star} />
+    </IonButton> -->
+    <ion-button>
+      <ion-icon slot="start" icon="star"></ion-icon> Left Icon
+    </ion-button>
+
+    <h2>Tamanho de botoes</h2>
+    <ion-button size="large">Large</ion-button>
+    <ion-button size="small">Small</ion-button>
+
+
+    <ion-button expand="block" color="danger" (click)="showPageHome()">Ir para Home</ion-button>
+</ion-content>
